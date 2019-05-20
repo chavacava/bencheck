@@ -12,7 +12,7 @@ bencheck [-t float]
 ## Example
 
 ```bash
-$ benchstat old.txt new.txt | bencheck -t 2
+$ benchstat old.txt new.txt | bencheck -t 2.5
 GobEncode   56.4MB/s ± 1%  65.1MB/s ± 1%  +15.36%  (p=0.016 n=4+5) delta is greater than 2.5
 $ echo $?
 1
